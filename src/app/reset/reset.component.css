@@ -1,0 +1,81 @@
+.example-card {
+    width: 380px;
+    height: 270px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .fundoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 27px;
+    padding: initial;
+  }
+  .f {
+    color: #4285F4;
+  }
+  .u {
+    color: #DB4437;
+  }
+  .n {
+    color: #F4B400;
+  }
+  .d {
+    color: #4285F4;
+  }
+  .o {
+    color: #0F9D58;
+  }
+  .oo {
+    color: #DB4437;
+  }
+  .p1{
+    display: flex;
+  	font-weight: 400;
+    justify-content: flex-start;
+    line-height: 80%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.title2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+    width: 390px;
+  }
+.password-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 33px;
+  }
+.password{
+    margin-top: 10px;
+    display: block;
+    width: 320px;
+}
+.logo{
+    margin-top: 20px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
