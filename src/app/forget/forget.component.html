@@ -1,0 +1,30 @@
+<div class="card">
+    <mat-card class="example-card">
+        <div class="fundoo" >
+            <span class="f">F</span>
+            <span class="u">u</span>
+            <span class="n">n</span>
+            <span class="d">d</span>
+            <span class="o">o</span>
+            <span class="oo">o</span>
+          </div>
+          <div class="title">
+            <p class="p1">Forget Username</p>
+          </div>
+          <div class="title2">
+            <p class="p2">Find your Fundoo Account</p>
+        </div>
+        <div>
+            <div class="email-container">
+                <mat-form-field appearance="outline" class="email">
+                  <mat-label>Username</mat-label>
+                  <input matInput [formControl]="email">
+                  <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="button-container">
+            <button mat-raised-button color="primary" class="button" style="width : 350px;">Forget Password</button>
+        </div>
+    </mat-card>
+</div>
