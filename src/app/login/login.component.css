@@ -1,0 +1,113 @@
+.example-card {
+    width: 450px;
+    height: 350px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .fundoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 27px;
+    padding: initial;
+  }
+  .f {
+    color: #4285F4;
+  }
+  .u {
+    color: #DB4437;
+  }
+  .n {
+    color: #F4B400;
+  }
+  .d {
+    color: #4285F4;
+  }
+  .o {
+    color: #0F9D58;
+  }
+  .oo {
+    color: #DB4437;
+  }
+  .p1{
+    display: flex;
+  	font-weight: 400;
+    justify-content: flex-start;
+    line-height: 80%;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.title2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+ .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+    width: 390px;
+  }
+  .email-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.email{
+  display: block;
+    width: 350px;
+}
+.float-right{
+    margin-left: 350px;
+    font: icon;
+    font-size: 15px;
+    color: #4971f6;
+    display: inline-block;
+    font-family: arial rounded mt;
+}
+.password-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -67px;
+}
+.password{
+    display: block;
+    width: 350px;
+    /* margin-left: 68px; */
+}
+a{
+    display: block;
+    position: relative;
+    font-family: roboto;
+    text-decoration: none;
+}
+.line4{
+    font-size: 15px;
+    margin: 20px 8px; 
+    color: #4971f6;
+    display: inline-block;
+    font-family: arial rounded mt;
+  }
+  .button-row{
+      margin-left: 40px;
+  }
+  .button{
+    margin-left: 100px;
+   }
+   .logo{
+    margin-top: 10px;
+}
