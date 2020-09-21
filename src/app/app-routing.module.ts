@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ForgetComponent } from './forget/forget.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { ResetComponent } from './reset/reset.component';
+import { AddNoteComponent } from './Components/add-note/add-note.component';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import { ForgetComponent } from './Components/forget/forget.component';
+import { LoginComponent } from './Components/login/login.component';
+import { RegisterComponent } from './Components/register/register.component';
+import { ResetComponent } from './Components/reset/reset.component';
 
 const routes: Routes = [
   {
@@ -23,13 +25,16 @@ const routes: Routes = [
     component:ResetComponent
   },
   {
-    path:'',
-    redirectTo:'register',
-    pathMatch:'full'
+    path:'dashboard',
+    component:DashboardComponent
   },
   {
-    path:'register/',
-    redirectTo:'login',
+    path:'addNote',
+    component:AddNoteComponent
+  },
+  {
+    path:'',
+    redirectTo:'register',
     pathMatch:'full'
   }
 ];
